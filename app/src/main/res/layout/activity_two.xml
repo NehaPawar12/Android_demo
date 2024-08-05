@@ -38,4 +38,12 @@
         android:backgroundTint="@color/black"
         android:layout_marginTop="20dp"
         android:text="Hot" />
+
+    <Button
+        android:id="@+id/but_card"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="Card View" />
 </LinearLayout>

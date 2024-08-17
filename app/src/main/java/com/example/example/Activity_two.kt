@@ -31,7 +31,7 @@ class Activity_two : AppCompatActivity() {
 
         val card = findViewById<Button>(R.id.but_card)
         card.setOnClickListener{
-            val intent = Intent(applicationContext, Activity_three::class.java)
+           val intent = Intent(applicationContext, Activity_three::class.java)
             startActivity(intent)
         }
 
